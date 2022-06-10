@@ -178,15 +178,15 @@ h1:hover {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: auto;
     border-radius: 15px;
     border: solid 1px; 
-    margin: 1.5em;
+    margin: 0.5em;
     transition: transform 0.3s ease-in-out;
 }
 
 .box-img img {
     border-radius: 15px;
+    width:400px;
 }
 
 .box-img:hover {
