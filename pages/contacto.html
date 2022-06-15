@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Projecto Lambda</title>
 </head>
 <body>
     <header>
         <div class="logo">
-           <a href="index.html"><img src="./images/lambdalogo.png" alt="Logo"></a> 
+           <a href="../index.html"><img src="../images/lambdalogo.png" alt="Logo"></a> 
         </div>
         <nav>
             <ul class="menu-horizontal">
@@ -36,17 +36,40 @@
         </nav>
     </header>
     <main>
-        <div>
-            <h1> NUEVO MERCEDES BENZ EQ | PROGRESSIVE LUXURY </h1>
-        </div>
+        <div class="imgContainer">
+            <img src="../images/contacto.jpg" alt="dejanostusdatos">
+       </div>
+        
+       <div>
+            <p> Dejanos tus datos en el formulario a continuacion y nos comunicaremos con vos a la brevedad! </p>
+           </div>
+       <div class="form">
+            <fieldset>
+               <legend> Ingrese sus datos </legend>
+                   <form>
+                       <label for="particular"> Particular </label> <input type="radio" id="particular" name="tema">
+                       <label for="empresa"> Empresa </label> <input type="radio" id="empresa" name="tema">
+                   </form>
+            <br>
+               <form>
+                   Nombre <input type="text" required placeholder="Obligatorio">
+               </form>
+            <br>
+               <form>
+                   Email <input type="email" required placeholder="Obligatorio">
+               </form>
+            <br>
+               <form>
+                   Teléfono <input type="number" placeholder="Opcional">
+               </form>
+            <br>
+               <form>
+                   <input type="submit" value="Enviar">
+               </form>
 
-        <div class="news">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1XFOhDyXo00" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </fieldset>
         </div>
     </main>
-
- 
 
     <footer>
         <p> Projecto Lambda® | Todos los derechos reservados </p>
